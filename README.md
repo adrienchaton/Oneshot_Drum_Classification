@@ -18,7 +18,7 @@ Visit the following repository for such a generative model: https://github.com/a
 
 ## Experiment roadmap
 
-* Setup a efficient and robust duplicate removal for audio files collected multiple times from different sources (?)
+* Setup a efficient and robust duplicate removal for audio files collected multiple times from different sources **(?)**
 
 * Setup evaluation metrics and stratified 5-fold data split for balanced train/test sets. https://torchmetrics.readthedocs.io/
 
@@ -27,8 +27,8 @@ Visit the following repository for such a generative model: https://github.com/a
 * Train end-to-end and compare different neural network classifiers around the OpenL3 architecture:
   * OpenL3 audio encoder + MLP classifier
   * OpenL3 audio encoder + Deep Neural Decision Forests classifier (reference implementation in https://github.com/darth-c0d3r/deep-neural-decision-forests)
-  * ... other ideas for transfer learning and unsupervised learning (?)
+  * ... other ideas for transfer learning and unsupervised learning **(?)**
 
 * Experiment on variable length classification (e.g. 1-3 sec. samples, RNN between embedding and classifier networks)
 
-* Feedback Loop (?) Curate a larger dataset with high confidence and train again the classifiers
+* Feedback Loop **(?)** Curate a larger dataset with high confidence and train again the classifiers

@@ -3,6 +3,7 @@
 Work-in progress. The aim is to experiment on automatic classification of drum one-shots from raw audio.
 
 ! Contributions are welcomed, notably for libraries of drum/percussion samples which are clearly associated with a class would be helpful to train the models !
+
 ! Please, get in touch if you would like to provide additional data to the experiment !
 
 **Application 1:** Automatic creation of a large-scale dataset of drum samples e.g. for training synthesis models with conditioning on target drum classes such as
@@ -17,15 +18,15 @@ Visit the following repository for such a generative model: https://github.com/a
 
 ## Experiment roadmap
 
-- Setup evaluation metrics and stratified 5-fold data split for balanced train/test sets
+* Setup evaluation metrics and stratified 5-fold data split for balanced train/test sets
 
-- Make a simple baseline using a pretrained audio embedding (e.g. OpenL3 trained on music data https://github.com/torchopenl3/torchopenl3) on top of which a statistical classifier is trained at predicting drum classes (e.g. Random Forest, AdaBoost)
+* Make a simple baseline using a pretrained audio embedding (e.g. OpenL3 trained on music data https://github.com/torchopenl3/torchopenl3) on top of which a statistical classifier is trained at predicting drum classes (e.g. Random Forest, AdaBoost)
 
-- Train end-to-end and compare different neural network classifiers around the OpenL3 architecture:
-* OpenL3 audio encoder + MLP classifier
-* OpenL3 audio encoder + Deep Neural Decision Forests classifier (reference implementation in https://github.com/darth-c0d3r/deep-neural-decision-forests)
-* ... other ideas for transfer learning and unsupervised learning ?
+* Train end-to-end and compare different neural network classifiers around the OpenL3 architecture:
+  * OpenL3 audio encoder + MLP classifier
+  * OpenL3 audio encoder + Deep Neural Decision Forests classifier (reference implementation in https://github.com/darth-c0d3r/deep-neural-decision-forests)
+  * ... other ideas for transfer learning and unsupervised learning ?
 
-- Experiment on variable length classification (e.g. 1-3 sec. samples, RNN between embedding and classifier networks)
+* Experiment on variable length classification (e.g. 1-3 sec. samples, RNN between embedding and classifier networks)
 
-- Feedback Loop ? Curate a larger dataset with high confidence and train again the classifiers
+* Feedback Loop ? Curate a larger dataset with high confidence and train again the classifiers

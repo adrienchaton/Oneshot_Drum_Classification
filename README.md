@@ -20,7 +20,7 @@ Visit the following repository for such a generative model: https://github.com/a
 
 * Setup a efficient and robust duplicate removal for audio files collected multiple times from different sources (?)
 
-* Setup evaluation metrics and stratified 5-fold data split for balanced train/test sets
+* Setup evaluation metrics and stratified 5-fold data split for balanced train/test sets. https://torchmetrics.readthedocs.io/
 
 * Make a simple baseline using a pretrained audio embedding (e.g. OpenL3 trained on music data https://github.com/torchopenl3/torchopenl3) on top of which a statistical classifier is trained at predicting drum classes (e.g. Random Forest, AdaBoost)
 

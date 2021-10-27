@@ -32,3 +32,5 @@ Visit the following repository for such a generative model: https://github.com/a
 * Experiment on variable length classification (e.g. 1-3 sec. samples, RNN between embedding and classifier networks)
 
 * Feedback Loop **(?)** Curate a larger dataset with high confidence and train again the classifiers
+
+* Gather data from drumming performances using either onset annotations or automatic dectection to segment one-shots

@@ -29,7 +29,7 @@ Visit the following repository for such a generative model: https://github.com/a
   * OpenL3 audio encoder + Deep Neural Decision Forests classifier (reference implementation in https://github.com/darth-c0d3r/deep-neural-decision-forests)
   * ... other ideas for transfer learning and unsupervised learning **(?)**
 
-* Experiment on variable length classification (e.g. 1-3 sec. samples, RNN between embedding and classifier networks)
+* Experiment on variable length classification (e.g. 1-3 sec. samples, by either averaging embeddings or RNN between embedding and classifier networks)
 
 * Feedback Loop **(?)** Curate a larger dataset with high confidence and train again the classifiers
 

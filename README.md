@@ -18,7 +18,7 @@ Visit the following repository for such a generative model: https://github.com/a
 
 ## Experiment roadmap
 
-* Setup a efficient and robust duplicate removal for audio files collected multiple times from different sources **(?)** Compute distances in OpenL3 embedding, plot statistics of distances and set a minimum distance threshold for duplicate removal ?
+* Setup a efficient and robust duplicate removal for audio files collected multiple times from different sources **(?)** Compute distances in OpenL3 embedding, plot statistics of distances and set a minimum distance threshold for duplicate removal ? Or use https://github.com/ben-hayes/timbre-dissimilarity-metrics ?
 
 * Setup evaluation metrics and stratified 5-fold data split for balanced train/test sets. https://torchmetrics.readthedocs.io/
 
